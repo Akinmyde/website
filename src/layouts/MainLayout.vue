@@ -2,6 +2,7 @@
   <q-layout view="lHh Lpr lFf">
     <q-header class="bg-hero">
       <q-toolbar class="container justify-between header">
+        <q-img src="../assets/logo.jpg" width="170px" height="50px" alt="" />
         <q-btn
           class="mobile-only"
           flat
@@ -89,7 +90,7 @@
             <q-btn class="desktop-only text-white" href="#about" no-caps flat>
               About
             </q-btn>
-            <q-btn
+            <!-- <q-btn
               no-caps
               color="primary"
               target="_blank"
@@ -99,7 +100,7 @@
               class="primary-btn"
             >
               Download
-            </q-btn>
+            </q-btn> -->
           </div>
         </div>
       </q-toolbar>
