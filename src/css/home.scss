@@ -1,0 +1,268 @@
+.hero-wrapper {
+  height: calc(100vh);
+  display: flex;
+  align-items: center;
+  background: $page;
+  position: relative;
+  overflow: hidden;
+  padding: 100px;
+}
+
+.hero-layer1 {
+  position: absolute;
+  width: 50%;
+  top: 90px;
+  bottom: 0px;
+  left: 80px;
+}
+
+.hero-layer2 {
+  position: absolute;
+  width: 40%;
+  right: 360px;
+  top: 10px;
+}
+
+.hero-title {
+  font-weight: 900;
+  margin: 0;
+  font-size: 60px;
+  line-height: 65px;
+  text-align: center;
+}
+.page-title {
+  margin-top: -20px;
+  font-weight: 500;
+  font-size: 86px;
+  line-height: 100px;
+  letter-spacing: -4px;
+  color: #ffffff;
+}
+
+.page-caption {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 30px;
+  /* or 142% */
+  margin-top: 100px;
+
+  letter-spacing: -1.2px;
+
+  color: #bfe2d8;
+}
+.home-wrapper-two {
+  background-color: #ffffff;
+  padding: 35px 80px 35px 80px;
+}
+.wrapper-header {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 50px;
+  /* or 109% */
+  margin-top: 80px;
+  letter-spacing: -2px;
+
+  /* Base / 01 */
+
+  color: #000000;
+}
+.wrapper-header-side {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: -1px;
+  color: #000000;
+  opacity: 0.5;
+}
+.mask-header {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: -1px;
+  color: #000000;
+}
+.mask-description {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: -0.8px;
+  color: #000000;
+  opacity: 0.5;
+}
+
+.wrapper-three-header {
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 70px;
+  letter-spacing: -2px;
+  color: #000000;
+}
+
+// MEDIA QUERIES
+@media (max-width: 1076px) {
+  .page-title {
+    font-weight: 500;
+    font-size: 76px;
+    line-height: 80px;
+    letter-spacing: -2px;
+    color: #ffffff;
+  }
+  .page-caption {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: -1px;
+    color: #bfe2d8;
+  }
+  .wrapper-header {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+    letter-spacing: -2px;
+  }
+
+  .wrapper-three-header {
+    font-size: 44px;
+    line-height: 60px;
+    letter-spacing: -2px;
+  }
+
+  .hero-layer2 {
+    right: 200px;
+  }
+  .hero-layer1 {
+    width: 60%;
+
+    h1 {
+      font-size: 65px;
+      margin-bottom: 60px;
+    }
+    p {
+      margin-top: 80px;
+    }
+    .primary-btn {
+      margin-top: 60px;
+    }
+  }
+}
+@media (max-width: 864px) {
+  .page-title {
+    margin-top: -50px;
+    font-weight: 500;
+    font-size: 70px;
+    line-height: 80px;
+    letter-spacing: -2px;
+    color: #ffffff;
+  }
+  .page-caption {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: -1px;
+    color: #bfe2d8;
+  }
+}
+@media (max-width: 776px) {
+  .container {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  .page-title {
+    font-weight: 500;
+    font-size: 76px;
+    line-height: 80px;
+    letter-spacing: -2px;
+    color: #ffffff;
+  }
+  .page-caption {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: -1px;
+    color: #bfe2d8;
+  }
+
+  .wrapper-three-header {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 38px;
+    letter-spacing: -2px;
+    color: #000000;
+  }
+  .hero-wrapper {
+    padding: 10px;
+    height: calc(100vh - 100px);
+  }
+  .mask-header2 {
+    font-size: 20px;
+    font-weight: 400;
+  }
+  // .hero-layer2 {
+  //   display: none;
+  // }
+  .hero-layer1 {
+    width: 100%;
+    text-align: center;
+    left: 0;
+    padding: 20px;
+    h1 {
+      text-align: center;
+      font-size: 55px;
+      margin-bottom: 60px;
+    }
+    p {
+      margin-top: 60px;
+    }
+    .primary-btn {
+      margin-top: 60px;
+    }
+  }
+
+  .home-wrapper-two {
+    background-color: #ffffff;
+    padding: 15px 40px 15px 40px;
+  }
+  .wrapper-header {
+    font-size: 30px;
+  }
+  .wrapper-header-side {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .page-title {
+    font-weight: 500;
+    font-size: 66px;
+    line-height: 70px;
+    letter-spacing: -4px;
+    color: #ffffff;
+  }
+  .page-caption {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 28px;
+    /* or 142% */
+
+    letter-spacing: -1.2px;
+
+    color: #bfe2d8;
+  }
+  .wrapper-header {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 50px;
+    /* or 109% */
+
+    letter-spacing: -2px;
+  }
+}

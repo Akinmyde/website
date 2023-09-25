@@ -1,0 +1,13 @@
+{
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": true,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.fontFamily": "JetBrains Mono", // Font Family
+  "editor.fontSize": 12.3, // Font Size
+  "editor.fontWeight": "500", // Font Weight
+  "editor.fontLigatures": true, // Font ligatures
+  "editor.codeActionsOnSave": ["source.fixAll.eslint"],
+  "eslint.validate": ["javascript", "javascriptreact", "typescript", "vue"],
+  "typescript.tsdk": "node_modules/typescript/lib"
+}
