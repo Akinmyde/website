@@ -1,9 +1,9 @@
 {
-  "name": "bonbonpay-website",
+  "name": "qtrim-website",
   "version": "0.0.1",
-  "description": "Say goodbye to hassles and hello to effortless utility payments all in one place",
-  "productName": "BonBonPay",
-  "author": "Johnexzy <obajohn75@gmail.com>",
+  "description": "The best beauty plug you can get",
+  "productName": "Qtrim",
+  "author": "Akinmyde <akinremiolumide96@gmail.com>",
   "private": true,
   "scripts": {
     "lint": "eslint --ext .js,.ts,.vue ./",
